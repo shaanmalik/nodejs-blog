@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/shaanmalik/nodejs-blog/issues"
   },
-  "homepage": "https://github.com/shaanmalik/nodejs-blog#readme"
+  "homepage": "https://github.com/shaanmalik/nodejs-blog#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
 }
