@@ -1,4 +1,5 @@
 #ignore emacs temp files
 *~
 
+Thumbs.db
 node_modules/
