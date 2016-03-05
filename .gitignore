@@ -1,5 +1,6 @@
 #ignore emacs temp files
 *~
 
+*.swp
 Thumbs.db
 node_modules/
