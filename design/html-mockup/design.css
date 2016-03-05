@@ -1,0 +1,15 @@
+body {
+  margin: 0px;
+}
+
+.header {
+  height: 100px;
+  width: 100%;
+  margin: 0px;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-size: 42px;
+  font-weight: bold;
+}
+
+
