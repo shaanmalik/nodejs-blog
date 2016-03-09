@@ -1,15 +1,17 @@
 body {
   margin: 0px;
+  background-color: #303030;
 }
 
 .header {
-  height: 100px;
+  height: 80px;
   width: 100%;
   margin: 0px;
   padding-left: 20px;
   padding-top: 20px;
   font-size: 42px;
   font-weight: bold;
+  background: linear-gradient(to bottom, #303030, #568001 4px, #568001 96px, #303030);
 }
 
 
