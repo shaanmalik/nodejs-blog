@@ -1,17 +1,64 @@
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../design/source-sans-pro-regular.woff2');
+}
+
+@font-face {
+    font-family: 'Source Sans Pro Light';
+    src: url('../design/source-sans-pro-300.woff2');
+}
+
 body {
   margin: 0px;
   background-color: #303030;
+  font-family: 'Source Sans Pro';
 }
 
 .header {
   height: 80px;
-  width: 100%;
+  min-width: 800px;
   margin: 0px;
-  padding-left: 20px;
+  padding-left: 50px;
   padding-top: 20px;
   font-size: 42px;
   font-weight: bold;
+  letter-spacing: 1px;
+  color: #2b331a;
   background: linear-gradient(to bottom, #303030, #568001 4px, #568001 96px, #303030);
 }
 
+.post {
+    margin-left: 50px;
+    margin-top: 50px;
+}
 
+.post-date {
+    color: #999290;
+    font-size: 18px;
+    font-family: 'Source Sans Pro Light';
+    margin-bottom: 10px;
+}
+
+.post-title {
+    color: #e6ded8;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.post-content {
+    color: #9f9996;
+    font-size: 20px;
+    font-family: 'Source Sans Pro Light';
+    width: 550px;
+    margin-bottom: 40px;
+}
+
+.footer-top {
+    height: 40px;
+    background: linear-gradient(to bottom, #303030, #4d4d4d);
+}
+
+.footer {
+    height: 150px;
+    background-color: #1a1a1a;
+}
