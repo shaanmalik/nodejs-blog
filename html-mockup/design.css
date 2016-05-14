@@ -88,3 +88,107 @@ hr {
     height: 150px;
     background-color: #1a1a1a;
 }
+
+.center-new-entry {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+}
+
+.new-entry {
+    background-color: #555555;
+    border-radius: 15px 15px 15px 15px;
+    border-color: #666666;
+    border-width: 1px;
+    border-style: solid;
+    padding: 50px 50px 0px 50px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    color: #c5c5c5;
+    font-size: 15px;
+    font-family: 'Source Sans Pro Light';
+    width: 500px;
+    -webkit-box-shadow: 10px 10px 10px 0 #000000;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.new-entry-section {
+    margin-bottom: 20px;
+}
+
+.new-entry-label {
+    margin-bottom: 8px;
+    margin-left: 8px;
+}
+
+.new-entry textarea {
+    width: 500px;
+    max-width: 500px;
+    height: 200px;
+
+    border-radius: 10px;
+    border-color: #858585;
+    border-width: 1px;
+    border-style: solid;
+    background: #808080;
+    font-size: 15px;
+    font-family: 'Source Sans Pro Light';
+    color: #e5e5e5;
+    padding-left: 8px;
+    padding-top: 8px;
+}
+
+.new-entry input {
+    border-radius: 10px;
+    border-color: #858585;
+    border-width: 1px;
+    border-style: solid;
+    height: 30px;
+    background: #808080;
+    font-size: 15px;
+    font-family: 'Source Sans Pro Light';
+    color: #e5e5e5;
+    padding-left: 8px;
+}
+
+.new-entry .post-tag {
+    background-color: #666161;
+    display: inline;
+    font-size: 14px;
+    padding: 6px 8px 6px 8px;
+    margin-left: 4px;
+    border-radius: 8px; 
+}
+
+.new-entry .post-tag.post-tag-add {
+    background-color: #7D7474;
+    display: inline;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 6px 12px 6px 12px;
+    margin-left: 4px;
+    border-radius: 8px; 
+}
+
+.new-entry-section#edit-post {
+    margin-top: 35px;
+}
+
+.new-entry-section.save-buttons {
+    display:flex;
+    justify-content:flex-end;
+    align-items:flex-end;
+    width:500px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.new-entry-section.save-buttons > button {
+    margin-left: 15px;
+}
+
+.btn {
+    font-family: 'Source Sans Pro Light';
+    font-size: 15px;
+}
