@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Just another blog</title>
+        <link rel="stylesheet" type="text/css" href="design.css" />
+    </head>
+    <body>
+
+        <div class="header">
+            {{blog.title}} 
+        </div>
+
+        <div class="posts">
+            {{#posts}}
+            <div class="post">
+                <div class="post-date">
+                    {{date}}
+                </div>
+                <div class="post-title">
+                    {{title}}
+                </div>
+                <div class="post-content">
+                    {{content}}
+                </div>
+                <div class="post-tags">
+                    Tags:
+                    {{#tags}}
+                    <div class="post-tag">{{.}}</div>
+                    {{/tags}}
+                </div>
+            </div>
+
+            <hr/>
+            {{/posts}}
+        </div>
+
+        <div class="footer-top">
+        </div>
+        <div class="footer">
+        </div>
+
+    </body>
+</html>
